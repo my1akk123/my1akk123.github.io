@@ -46,7 +46,7 @@ body {
   margin-bottom: 38px;
 }
 .hi__list li {
-  background: url(/src/icons/icons-done.svg) 0 1px no-repeat;
+  background: url(src/icons/icons-done.svg) 0 1px no-repeat;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
   font-size: 20px;
   line-height: 22px;
