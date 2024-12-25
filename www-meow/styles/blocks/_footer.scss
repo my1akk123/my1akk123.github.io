@@ -1,0 +1,13 @@
+.footer {
+	grid-area: footer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 12px;
+
+	&__copy {
+	}
+
+	&__text {
+	}
+}

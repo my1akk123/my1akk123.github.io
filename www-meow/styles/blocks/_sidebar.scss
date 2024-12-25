@@ -1,0 +1,26 @@
+.sidebar {
+	grid-column: 2/3;
+
+	&__menu {
+		border-radius: 12px;
+		padding: 12px;
+
+		&-list {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+
+	&__item {
+	}
+
+	&__link {
+		padding: 12px;
+		display: block;
+		border-radius: 4px;
+
+		&:hover {
+			background-color: var(--hover-color);
+		}
+	}
+}
