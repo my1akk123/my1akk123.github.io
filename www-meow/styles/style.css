@@ -55,6 +55,11 @@ a {
     grid-column: span 2;
     grid-row: span 2;
   }
+
+  .header__menu {
+    display: flex;
+    align-items: center;
+  }
 }
 .products__items {
   display: grid;
@@ -124,7 +129,7 @@ a {
   line-height: 48px;
 }
 .header__menu {
-  display: flex;
+  display: none;
   align-items: center;
 }
 .header__menu-list {
